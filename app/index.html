@@ -1,0 +1,49 @@
+<!doctype html>
+<html class="no-js">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <title>Gulp Learning Project</title>
+	    <meta name="description" content="Gulp Learning Project">
+	    <meta name="viewport" content="width=device-width">
+	    <!-- build:css -->
+	    <!-- <link rel="stylesheet" href="bower_components/**/*.min.css" /> -->
+	    <link rel="stylesheet" href="css/style.css">
+	    <!-- endbuild -->
+	</head>
+
+	<body ng-app="gopastoApp">
+	    <div id="wrap" >
+	       <!--  <ng-include src="'js/modules/navbar/*.html'"></ng-include> -->
+	        <div class="content-body" ui-view="content"></div>
+	        <footer class="footer navbar-fixed-bottom">
+				<div class="col-md-16 footer_container ">
+				    <div class="container">
+				        <div class="col-md-10 footer_left">
+				            <ul class="footer_left_ul">
+				                <li><a href="#"  target="_blank"> Home</a></li>
+				                <li><a href="#/privacyPolicy" target="_blank">Example1</a></li>
+				                <li><a href="#/termsOfUse" target="_blank">Example2</a></li>
+				                <li><a href="#/privacyPractices" target="_blank">Example3</a></li>
+				                <li><a href="#/careSite" target="_blank">Example4</a></li>
+				            </ul>
+				            <p id="copyright_txt">Demo By Avnesh Shakya.</p>
+				        </div>
+				        <div class="col-md-6 footer_right">
+				            <span class="footer_right_txt pull-right">We will try to improve it</span>
+				        </div>
+				    </div>
+				</div>
+			</footer>
+		</div> 
+
+	<!-- build:js -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="js/app.min.js"></script>
+	<script src="js/main.min.js"></script>
+
+	<!-- endbuild -->
+	</body>
+</html>
